@@ -6,17 +6,17 @@ sphinx_fe -argfile en-us/feat.params \
 ```
 ```bash
 ./bw \
- -hmmdir en-us \
- -moddeffn en-us/mdef \
- -ts2cbfn .ptm. \
- -feat 1s_c_d_dd \``
- -svspec 0-12/13-25/26-38 \
- -cmn current \
- -agc none \
- -dictfn cmudict-en-us.dict \
- -ctlfn arctic20.fileids \
- -lsnfn arctic20.transcription \
- -accumdir .
+   -hmmdir en-us \
+   -moddeffn en-us/mdef \
+   -ts2cbfn .ptm. \
+   -feat 1s_c_d_dd \``
+   -svspec 0-12/13-25/26-38 \
+   -cmn current \
+   -agc none \
+   -dictfn cmudict-en-us.dict \
+   -ctlfn arctic20.fileids \
+   -lsnfn arctic20.transcription \
+   -accumdir .
 ```
 ```bash
 cp -a en-us en-us-tsubasa
